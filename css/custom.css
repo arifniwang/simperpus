@@ -1,0 +1,28 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 70px;
+  background-image: url("../images/sayagata.png");
+}
+
+.icon {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  
+}
+
+.footer .container p {
+  margin: 10px 0;
+  color: white;
+}
